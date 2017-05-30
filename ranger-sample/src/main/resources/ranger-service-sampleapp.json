@@ -1,0 +1,11 @@
+{
+  "configs": {
+    "password": "admin",
+    "username": "admin"
+  },
+  "description": "cl1_sampleapp",
+  "id": 4,
+  "isEnabled": true,
+  "name": "cl1_sampleapp",
+  "type": "sampleapp"
+}

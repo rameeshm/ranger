@@ -107,6 +107,7 @@
         <module>ranger-kms-plugin-shim</module>
         <module>ranger-hive-utils</module>
         <module>ranger-examples</module>
+        <module>ranger-sample</module>
         <module>ranger-tools</module>
         <module>plugin-atlas</module>
   </modules>
@@ -407,6 +408,7 @@
                             <descriptor>src/main/assembly/ranger-tools.xml</descriptor>
                             <descriptor>src/main/assembly/ranger-src.xml</descriptor>
                             <descriptor>src/main/assembly/plugin-atlas.xml</descriptor>
+                            <descriptor>src/main/assembly/ranger-sample.xml</descriptor>
                         </descriptors>
                     </configuration>
                 </plugin>
@@ -555,6 +557,8 @@
                         <exclude>**/test/resources/**/*.csv</exclude>
                         <exclude>**/main/resources/**/*.json</exclude>
                         <exclude>**/samples/**/*.json</exclude>
+                        <exclude>**/ranger-sample/resources/*.json</exclude>
+                        <exclude>**/ranger-sample/*.txt</exclude>
                         <exclude>**/.externalToolBuilders/*</exclude>
                         <exclude>*.patch</exclude>
                         <exclude>**/testdata/*.json</exclude>
